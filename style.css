@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: dimgray;
+    color: white;
+}
+.main
+{
+    padding: 5px 0;
+    text-align: center;
+ 
+}
+input{
+    display: flex;
+    flex-direction: column;
+
+}
+.inputs input{
+    border-radius: 5px;
+    padding: 5px;
+    margin:10px ;
+    border: 2px solid black;
+}
+#selectOp
+{
+    margin-top:10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#btn
+{
+    padding: 10px;
+        border: 2px solid black;
+    border-radius: 5px;
+}
+.result
+{
+    margin: 20px;
+    border: 2px solid white ;
+    padding: 10px;
+    background-color: rgb(25, 23, 23);
+}
